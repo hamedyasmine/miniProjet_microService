@@ -1,0 +1,40 @@
+Post create product 
+http://localhost:3000/products
+
+put updated product 
+http://localhost:3000/products/1
+{
+  "name": "book2",
+  "price": 10.99
+}
+get product by id 
+http://localhost:3000/products/1
+{
+  "name": "book2",
+  "price": 10.99
+}
+delete pruduct by id
+http://localhost:3000/products/1
+
+POST create user 
+http://localhost:3000/users
+
+{
+  "username": "arij",
+  "email": "arij@gmail.com"
+}
+update user by id 
+http://localhost:3000/users/1
+{
+  "username": " arij hammouda ",
+  "email": "arij@gmail.com"
+}
+
+delete user by id 
+http://localhost:3000/users/1
+
+get users
+get http://localhost:3000/users
+
+get user by id 
+http://localhost:3000/users/1
